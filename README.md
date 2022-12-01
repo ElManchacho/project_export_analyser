@@ -1,22 +1,21 @@
 # Analyse your project's exported elements
 
-### This repository is used to check the module.exports of one of your project file and determine how often this exports are used inside of your project
+## This repository is used to check the module.exports of one of your project file and determine how often this exports are used inside of your project
 
 ## How to ?
 
 
-#### Prerequisites
+### Prerequisites
 
-You need to have node installed, version v16.14.0 works fine.
-
-Then run 
+Run 
 ```bash
-npm install typescript -g 
+npm install
 ```
-as the script is in Typescript.
 
 
-#### Step 1
+
+
+### Step 1
 
 Check the ```functionparser.js``` file at it's top and change the 3 following variables to your liking :
 
@@ -41,9 +40,13 @@ const fileExtension : string = '.js' // SET VALUE WITH THE FILE TYPE YOU WANT TO
 
 ```
 
-#### Step 2
+### Step 2
 
 Run the script with
 ```bash
 ts-node .\functionparser.ts 
 ```
+
+### Step 3
+
+Go in the ```reports``` folder to see the analysis report
