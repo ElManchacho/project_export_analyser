@@ -30,7 +30,7 @@ project_export_analyser
 
 |
 
-|__..
+|__ . .
 
 |
 
