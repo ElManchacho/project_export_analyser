@@ -2,9 +2,9 @@ import { readFileSync, readdirSync, statSync, mkdirSync, existsSync, writeFileSy
 import Excel from 'exceljs';
 import path from 'path';
 
-const projectFolderPath: string = 'C:\\Users\\paul.leroyducardonno\\Desktop\\Projets\\Cockpit\\azurefunc_transform\\' // SET VALUE WITH YOUR PROJECT PATH
+const projectFolderPath: string = 'Absolute path to your project' // SET VALUE WITH YOUR PROJECT PATH
 
-const fileFunctions: string = 'database.js' // SET VALUE WITH YOUR FILE THAT EXPORTS ELEMENTS
+const fileFunctions: string = 'exporter.js' // SET VALUE WITH YOUR FILE THAT EXPORTS ELEMENTS
 
 const fileExtension: string = '.js' // SET VALUE WITH THE FILE TYPE YOU WANT TO CHECK
 
