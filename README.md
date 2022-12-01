@@ -41,4 +41,9 @@ const fileExtension : string = '.js' // SET VALUE WITH THE FILE TYPE YOU WANT TO
 
 ```
 
-#### Step 2 
+#### Step 2
+
+Run the script with
+```bash
+ts-node .\functionparser.ts 
+```
