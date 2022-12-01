@@ -26,7 +26,9 @@ Check the ```functionparser.js``` file at it's top and change the 3 following va
 The part of the file you need to modify is lookiing like this : 
 
 ```
-import { readFileSync, readdirSync, statSync } from "fs";
+import { readFileSync, readdirSync, statSync, mkdirSync, existsSync, writeFileSync } from "fs";
+import Excel from 'exceljs';
+import path from 'path';
 
 const projectFolderPath: string = 'Absolute path to your project' // SET VALUE WITH YOUR PROJECT PATH
 
