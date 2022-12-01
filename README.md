@@ -4,6 +4,28 @@
 
 ## How to ?
 
+
+#### Prerequisites
+
+You need to have node installed, version v16.14.0 works fine.
+
+Then run 
+```bash
+npm install typescript -g 
+```
+as the script is in Typescript.
+
+
+#### Step 1
+
+Check the ```functionparser.js``` file at it's top and change the 3 following variables to your liking :
+
+- projectFolderPath --> Absolute path to your project
+- fileFunctions --> File at the path ```projectFolderPath``` in which your ```module.exports``` is located
+- fileExtension --> Extension of the files you wish to analyse
+
+The part of the file you need to modify is lookiing like this : 
+
 ```
 import { readFileSync, readdirSync, statSync } from "fs";
 
@@ -18,3 +40,5 @@ const fileExtension : string = '.js' // SET VALUE WITH THE FILE TYPE YOU WANT TO
 ...
 
 ```
+
+#### Step 2 
