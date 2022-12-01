@@ -7,18 +7,33 @@ In this folder you will find a .txt file that explicitly explain the analysis an
 It represented as following :
 
 project_export_analyser
+
 |
+
 |____ node_modules
+
 |
+
 |____ reports
+
 |     |
+
 |     |____ report_timestamp
+
 |           |
+
 |           |____ Report_timestamp_Analysis.xlsx 
+
 |           |
+
 |           |____ Report_timestamp_messages.txt
+
 |
+
 |__..
+
 |
+
 .
+
 .

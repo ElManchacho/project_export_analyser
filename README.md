@@ -50,3 +50,31 @@ ts-node .\functionparser.ts
 ### Step 3
 
 Go in the ```reports``` folder to see the analysis report
+
+# The analysis' reports will appear in this folder
+
+Each analysis is classified in a designed folder, named report_'number', the number being a timestamp.
+
+In this folder you will find a .txt file that explicitly explain the analysis and a .xlsx file in which the analysed components are classified, counted and located among your project files.
+
+It represented as following :
+
+project_export_analyser
+
+|
+
+|____ node_modules
+
+|
+
+|____ reports <-- This folder
+
+|
+
+|__..
+
+|
+
+.
+
+.
